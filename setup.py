@@ -214,7 +214,6 @@ def get_requirements():
         'trimesh>=3.0',
         'scipy==1.4.1',
         'tqdm==4.32.1',
-        'pptk==0.1.0',
         'pyparsing==2.4.7',
     ]
 
@@ -230,7 +229,7 @@ if __name__ == '__main__':
         url=URL,
         long_description=LONG_DESCRIPTION,
         license=LICENSE,
-        python_requires='~=3.6',
+        python_requires='~=3.8',
 
         # Package info
         packages=find_packages(exclude=('docs', 'test', 'examples')),
